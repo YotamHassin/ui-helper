@@ -1,0 +1,45 @@
+{
+  "name": "ui-helper",
+  "version": "1.0.1",
+  "description": "A Node.js UI module that helper.",
+  "main": "index.js",
+  "scripts": {
+    "test_err": "echo \"Error: no test specified\" && exit 1",
+    "test_echo": "echo \"test\" && exit 0",
+    "test": "node test",
+    "start": "node index"
+  },
+  "keywords": [
+    "Helper",
+    "Node",
+    "Node.JS",
+    "NPM",
+    "UI/UX",
+    "UI",
+    "UX",
+    "Interface",
+    "CLI"
+  ],
+  "author": "Yotam Hassin <YotamHassinWork@gmail.com> (https://www.linkedin.com/in/yotamhassin/)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YotamHassin/ui-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YotamHassin/ui-helper/issues"
+  },
+  "homepage": "https://github.com/YotamHassin/ui-helper#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "config-file-helper": "^0.1.1",
+    "enquirer-helper": "^1.1.1",
+    "figlet": "^1.4.0",
+    "opener": "^1.5.1"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/YotamHassin"
+  }
+}
