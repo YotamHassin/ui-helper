@@ -1,6 +1,8 @@
 
 # ui-helper
+
 A Node.js UI module that helper.
+
 - [Global](#global)
     - [Installation](#installation-global)
     - [Usage](#usage-global)
@@ -10,11 +12,11 @@ A Node.js UI module that helper.
     - [Usage](#usage-local)
 
 - [Examples](#examples)
-    - [Main](#main)
-    - [Directories](#directories)
-    - [Files](#files)
-    - [Package JSON](#package-json)
-    - [Package Scripts](#package-scripts)
+    - [Main](#main-explorer)
+    - [Directories](#directories-explorer)
+    - [Files](#files-explorer)
+    - [Package JSON](#package-json-explorer)
+    - [Package Scripts](#package-scripts-explorer)
 
 - [Join Me](#join-me-on-the-quest-to-make-computer-software-and-development-simple)
 
@@ -30,7 +32,7 @@ npm install ui-helper -g
 ```
 
 ### Usage Global
-![help](https://github.com/YotamHassin/ui-helper/blob/master/assets/help.PNG?raw=true)
+![main](https://github.com/YotamHassin/ui-helper/blob/master/assets/main.PNG?raw=true)
 
 ```sh
 ui
@@ -64,31 +66,31 @@ cd <my_location>/ui-helper
 npm start
 ```
 ## Examples
-### Main
+### Main Explorer
 ```sh
 ui
 ```
 ![Main](https://github.com/YotamHassin/ui-helper/blob/master/assets/main.PNG?raw=true)
 
-### Directories
+### Directories Explorer
 ```sh
 ui -d
 ```
 ![Directories](https://github.com/YotamHassin/ui-helper/blob/master/assets/directories.PNG?raw=true)
 
-### Files
+### Files Explorer
 ```sh
 ui -f
 ```
 ![Files](https://github.com/YotamHassin/ui-helper/blob/master/assets/files.PNG?raw=true)
 
-### Package JSON
+### Package JSON Explorer
 ```sh
 ui -p
 ```
 ![Package JSON](https://github.com/YotamHassin/ui-helper/blob/master/assets/package.PNG?raw=true)
 
-### Package Scripts
+### Package Scripts Explorer
 ```sh
 ui -p
 ```
