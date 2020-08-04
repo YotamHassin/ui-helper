@@ -10,7 +10,7 @@ npm install ui-helper -g
 ```
 
 ### Usage
-
+![help](https://github.com/YotamHassin/ui-helper/blob/master/assets/help.PNG?raw=true)
 ```sh
 ui-helper
 ```
