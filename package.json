@@ -1,25 +1,19 @@
 {
   "name": "ui-helper",
-  "version": "1.0.1",
+  "version": "1.0.9",
   "description": "A Node.js UI module that helper.",
   "main": "index.js",
+  "bin": {
+    "ui-helper": "./index.js",
+    "ui": "./index.js"
+  },
   "scripts": {
     "test_err": "echo \"Error: no test specified\" && exit 1",
     "test_echo": "echo \"test\" && exit 0",
     "test": "node test",
     "start": "node index"
   },
-  "keywords": [
-    "Helper",
-    "Node",
-    "Node.JS",
-    "NPM",
-    "UI/UX",
-    "UI",
-    "UX",
-    "Interface",
-    "CLI"
-  ],
+  "keywords": ["Helper", "Node", "Node.JS", "NPM", "UI/UX", "UI", "UX", "Interface", "CLI"],
   "author": "Yotam Hassin <YotamHassinWork@gmail.com> (https://www.linkedin.com/in/yotamhassin/)",
   "license": "ISC",
   "repository": {
